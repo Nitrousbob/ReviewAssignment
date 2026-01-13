@@ -11,7 +11,7 @@
             DoPurchases(janna);
             DoPurchases(john);
         }
-
+        //method to do purchases for any customer type
         static void DoPurchases(Customer customer)
         {
             Console.WriteLine("\nStarting Purchases:");
