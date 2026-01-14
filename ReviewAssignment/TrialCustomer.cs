@@ -2,6 +2,8 @@
 using System.Collections.Generic;
 using System.Text;
 
+// jesse was here
+
 namespace ReviewAssignment
 {
     internal class TrialCustomer : Customer
