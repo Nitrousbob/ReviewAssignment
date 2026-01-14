@@ -5,10 +5,10 @@
         static void Main(string[] args)
         {
             Customer bear = new TrialCustomer("Bear", "Johnson");   //abstract class then name, then concrete class
-            Customer janna = new PremiumCustomer("Rhianna", "Bean");
+            Customer rhianna = new PremiumCustomer("Rhianna", "Bean");
             Customer john = new ProCustomer("John", "Baldon");
             DoPurchases(bear);
-            DoPurchases(janna);
+            DoPurchases(rhianna);
             DoPurchases(john);
         }
         //method to do purchases for any customer type
